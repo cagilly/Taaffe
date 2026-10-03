@@ -1,0 +1,372 @@
+/* fonts (self-hosted) */
+/* latin-ext */
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/Anton-normal-400-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/Anton-normal-400-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Archivo';
+  font-style: italic;
+  font-weight: 400 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(fonts/Archivo-italic-400-700-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Archivo';
+  font-style: italic;
+  font-weight: 400 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(fonts/Archivo-italic-400-700-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(fonts/Archivo-normal-400-700-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(fonts/Archivo-normal-400-700-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/IBMPlexMono-normal-400-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/IBMPlexMono-normal-400-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/IBMPlexMono-normal-500-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/IBMPlexMono-normal-500-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/IBMPlexMono-normal-600-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/IBMPlexMono-normal-600-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  /* ---- Base: Bottle Green (cab paint) ---- */
+  --green-950: #061716;
+  --green-900: #0A2422;
+  --green-800: #0E2E2C;
+  --green-700: #123C3A;
+  --green-600: #1A5250;
+  --green-500: #26706C;
+  --green-300: #6FA6A1;
+  --green-100: #D3E3E1;
+
+  /* ---- Base: Signwriting Gold (pinstripe / lettering) ---- */
+  --gold-700: #9A7A16;
+  --gold-600: #C79E28;
+  --gold-500: #E5C452;
+  --gold-400: #F0DA8E;
+  --gold-100: #FAF1D5;
+
+  /* ---- Base: Signal Red (crest + tipper lettering) ---- */
+  --red-700: #8E161C;
+  --red-600: #B81F26;
+  --red-500: #D6262B;
+  --red-100: #F8DCDC;
+
+  /* ---- Base: Chrome / Steel (tipper body, stacks, rims) ---- */
+  --steel-050: #F1F3F3;
+  --steel-100: #E3E7E8;
+  --steel-200: #C6CBCD;
+  --steel-300: #9BA2A5;
+  --steel-400: #767E81;
+  --steel-500: #5C6467;
+
+  /* ---- Base: Ink Navy (bumper, tyres, tarmac read blue-black) ---- */
+  --graphite-900: #080E1C;
+  --graphite-800: #121A2E;
+  --graphite-700: #1E2740;
+  --graphite-600: #2C3752;
+
+  /* ---- Base: Sand & Gravel (product) ---- */
+  --sand-300: #D6C39A;
+  --sand-200: #E8DCC2;
+  --sand-100: #F3ECDC;
+  --paper: #F6F4EF;
+
+  /* ---- Base: Glass Blue (glazing reflection — information only) ---- */
+  --glass-600: #1F4C63;
+  --glass-500: #2C6C8C;
+  --glass-100: #DCE9EF;
+
+  /* ---- Semantic: brand ---- */
+  --brand-primary: var(--green-700);
+  --brand-primary-hover: var(--green-600);
+  --brand-primary-press: var(--green-800);
+  --brand-accent: var(--gold-500);
+  --brand-accent-ink: var(--gold-700);
+  --brand-alert: var(--red-600);
+
+  /* ---- Semantic: surfaces ---- */
+  --surface-page: var(--paper);
+  --surface-card: #FFFFFF;
+  --surface-sunken: var(--steel-050);
+  --surface-steel: var(--steel-100);
+  --surface-inverse: var(--green-900);
+  --surface-inverse-raised: var(--green-800);
+  --surface-black: var(--graphite-900);
+
+  /* ---- Semantic: ink ---- */
+  --text-body: var(--graphite-800);
+  --text-strong: var(--graphite-900);
+  --text-muted: var(--steel-500);
+  --text-inverse: var(--paper);
+  --text-inverse-muted: var(--green-300);
+  --text-accent: var(--gold-700);
+  --text-on-accent: var(--graphite-900);
+  --text-link: var(--green-600);
+  --text-link-hover: var(--gold-700);
+
+  /* ---- Semantic: lines ---- */
+  --border-hairline: var(--steel-200);
+  --border-strong: var(--steel-300);
+  --border-inverse: rgba(229, 196, 82, 0.38);
+  --keyline-gold: var(--gold-500);
+  --focus-ring: var(--gold-500);
+
+  /* ---- Semantic: status ---- */
+  --status-ok: #2E6F4E;
+  --status-ok-bg: #E2EFE7;
+  --status-warn: var(--gold-700);
+  --status-warn-bg: var(--gold-100);
+  --status-danger: var(--red-600);
+  --status-danger-bg: var(--red-100);
+  --status-info: var(--glass-600);
+  --status-info-bg: var(--glass-100);
+}
+
+:root {
+  /* Families */
+  --font-display: "Anton", "Arial Narrow", Impact, sans-serif;   /* signwriting plates, ALL CAPS only */
+  --font-ui: "Archivo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  /* Sizes — 1.25 ratio, floored at 12px */
+  --text-2xs: 0.6875rem;  /* 11px — plate microcopy / legal only */
+  --text-xs: 0.75rem;     /* 12px */
+  --text-sm: 0.875rem;    /* 14px */
+  --text-base: 1rem;      /* 16px */
+  --text-md: 1.125rem;    /* 18px */
+  --text-lg: 1.375rem;    /* 22px */
+  --text-xl: 1.75rem;     /* 28px */
+  --text-2xl: 2.25rem;    /* 36px */
+  --text-3xl: 3rem;       /* 48px */
+  --text-4xl: 4.25rem;    /* 68px */
+  --text-5xl: 6rem;       /* 96px — hero plate */
+
+  /* Weights */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* Line heights */
+  --leading-plate: 0.88;
+  --leading-tight: 1.1;
+  --leading-snug: 1.3;
+  --leading-body: 1.55;
+
+  /* Tracking */
+  --tracking-plate: 0.01em;
+  --tracking-tight: -0.01em;
+  --tracking-normal: 0;
+  --tracking-label: 0.08em;   /* uppercase UI labels */
+  --tracking-stencil: 0.18em; /* wide stencil captions */
+
+  /* Composed roles */
+  --type-hero: var(--weight-regular) var(--text-5xl) / var(--leading-plate) var(--font-display);
+  --type-plate: var(--weight-regular) var(--text-3xl) / var(--leading-plate) var(--font-display);
+  --type-h1: var(--weight-bold) var(--text-2xl) / var(--leading-tight) var(--font-ui);
+  --type-h2: var(--weight-bold) var(--text-xl) / var(--leading-tight) var(--font-ui);
+  --type-h3: var(--weight-semibold) var(--text-lg) / var(--leading-snug) var(--font-ui);
+  --type-body: var(--weight-regular) var(--text-base) / var(--leading-body) var(--font-ui);
+  --type-body-sm: var(--weight-regular) var(--text-sm) / var(--leading-body) var(--font-ui);
+  --type-label: var(--weight-semibold) var(--text-xs) / 1.2 var(--font-ui);
+  --type-docket: var(--weight-medium) var(--text-sm) / 1.4 var(--font-mono);
+}
+
+:root {
+  /* 4px base grid. Chassis rhythm: 8 / 16 / 24 / 48. */
+  --space-0: 0;
+  --space-1: 0.25rem;  /* 4 */
+  --space-2: 0.5rem;   /* 8 */
+  --space-3: 0.75rem;  /* 12 */
+  --space-4: 1rem;     /* 16 */
+  --space-5: 1.25rem;  /* 20 */
+  --space-6: 1.5rem;   /* 24 */
+  --space-8: 2rem;     /* 32 */
+  --space-10: 2.5rem;  /* 40 */
+  --space-12: 3rem;    /* 48 */
+  --space-16: 4rem;    /* 64 */
+  --space-20: 5rem;    /* 80 */
+  --space-24: 6rem;    /* 96 */
+
+  /* Layout */
+  --container-max: 1200px;
+  --container-wide: 1440px;
+  --gutter: var(--space-6);
+  --section-y: var(--space-20);
+  --control-h-sm: 32px;
+  --control-h-md: 40px;
+  --control-h-lg: 48px;
+  --touch-min: 44px;
+}
+
+:root {
+  /* Coachbuilt, not soft: small radii everywhere, pills only for status. */
+  --radius-none: 0;
+  --radius-xs: 2px;
+  --radius-sm: 3px;
+  --radius-md: 5px;
+  --radius-lg: 8px;
+  --radius-pill: 999px;
+
+  --border-width-hairline: 1px;
+  --border-width-keyline: 2px;   /* gold pinstripe */
+  --border-width-heavy: 3px;
+}
+
+:root {
+  /* Hard, low, tarmac-under-a-truck shadows. No soft glows. */
+  --shadow-flat: 0 1px 0 0 rgba(8, 14, 28, 0.08);
+  --shadow-card: 0 1px 2px rgba(8, 14, 28, 0.10), 0 2px 8px rgba(8, 14, 28, 0.06);
+  --shadow-raised: 0 2px 4px rgba(8, 14, 28, 0.14), 0 10px 24px rgba(8, 14, 28, 0.10);
+  --shadow-overlay: 0 18px 48px rgba(6, 23, 22, 0.34);
+  --shadow-inset-steel: inset 0 1px 0 rgba(255, 255, 255, 0.65), inset 0 -1px 0 rgba(8, 14, 28, 0.08);
+  --scrim-photo: linear-gradient(180deg, rgba(6,23,22,0) 0%, rgba(6,23,22,0.72) 68%, rgba(6,23,22,0.9) 100%);
+  --scrim-side: linear-gradient(90deg, rgba(6,23,22,0.86) 0%, rgba(6,23,22,0.45) 55%, rgba(6,23,22,0) 100%);
+}
+
+:root {
+  --dur-instant: 80ms;
+  --dur-fast: 140ms;
+  --dur-base: 220ms;
+  --dur-slow: 380ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --transition-control: background-color var(--dur-fast) var(--ease-standard),
+    border-color var(--dur-fast) var(--ease-standard),
+    color var(--dur-fast) var(--ease-standard),
+    box-shadow var(--dur-fast) var(--ease-standard),
+    transform var(--dur-instant) var(--ease-standard);
+}
+
+/* base */
+html,body{margin:0}
+html{scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{background:var(--surface-page);color:var(--text-body);font:var(--type-body);-webkit-font-smoothing:antialiased}
+a{color:var(--text-link);text-decoration:none}
+a:hover{color:var(--text-link-hover)}
+img{max-width:100%}
+section[id]{scroll-margin-top:120px}
+.skip{position:absolute;left:-9999px;top:0;z-index:100;background:var(--surface-inverse);color:var(--gold-500);padding:12px 16px;font:var(--type-label);text-transform:uppercase}
+.skip:focus{left:16px;top:16px;color:var(--gold-500)}
+
+/* buttons and links */
+[data-btn]{transition:var(--transition-control)}
+[data-btn=primary]:hover{background:var(--brand-primary-hover)!important;box-shadow:var(--shadow-card)!important;color:var(--text-inverse)!important}
+[data-btn=accent]:hover{background:var(--gold-400)!important;box-shadow:var(--shadow-card)!important;color:var(--text-on-accent)!important}
+[data-btn=secondary]:hover{background:var(--surface-steel)!important;border-color:var(--border-strong)!important;color:var(--text-strong)!important}
+[data-btn=ghost]:hover{background:rgba(18,60,58,0.08)!important;color:var(--text-link)!important}
+[data-btn=onDark]:hover{background:rgba(229,196,82,0.14)!important;color:var(--gold-500)!important}
+[data-btn]:active{transform:translateY(1px)}
+[data-btn]:focus-visible,[data-m=nav] a:focus-visible{outline:2px solid var(--focus-ring)!important;outline-offset:2px}
+[data-m=nav] a:hover{color:var(--text-strong)!important}
+[data-q=wa]:hover{background:var(--gold-500)!important}
+footer a:hover{color:var(--gold-500)!important}
+div:has(> input:focus){border-color:var(--brand-primary)!important;box-shadow:0 0 0 2px rgba(229,196,82,.45)!important}
+select:focus{outline:none;border-color:var(--brand-primary)!important;box-shadow:0 0 0 2px rgba(229,196,82,.45)!important}
+label:has(input[type=radio]:focus-visible) > span:first-child{outline:2px solid var(--focus-ring);outline-offset:2px}
+
+/* mobile */
+@media (max-width: 860px) {
+  [data-m="stack"] { grid-template-columns: minmax(0, 1fr) !important; gap: var(--space-8) !important; }
+  [data-m="footer"] { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  [data-m="footer"] > :first-child { grid-column: 1 / -1; }
+  [data-m="garden-pad"] { padding: 0 var(--space-6) var(--space-8) !important; }
+  [data-m="burger"] { display: inline-flex !important; }
+  [data-m="nav"] { display: none !important; }
+  [data-m="nav"][data-open="true"] { display: flex !important; flex-direction: column; gap: 0 !important; position: absolute; left: 0; right: 0; top: 100%; background: var(--surface-card); border-bottom: 1px solid var(--border-hairline); padding: var(--space-2) var(--space-6) var(--space-4); box-shadow: 0 12px 24px rgba(0,0,0,0.08); }
+  [data-m="nav"][data-open="true"] > a { padding: 14px 0 !important; text-align: left; border-bottom: 1px solid var(--border-hairline) !important; }
+  [data-m="hide"] { display: none !important; }
+  [data-m="hero-pad"] { padding: var(--space-16, 64px) var(--space-6) !important; }
+  [data-m="croke-scrim"] { background: rgba(14,22,28,0.78) !important; }
+  h1 { overflow-wrap: break-word; }
+}
+@media (max-width: 520px) {
+  [data-m="footer"] { grid-template-columns: minmax(0, 1fr) !important; }
+}
