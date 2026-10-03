@@ -364,7 +364,8 @@ label:has(input[type=radio]:focus-visible) > span:first-child{outline:2px solid 
   [data-m="nav"][data-open="true"] > a { padding: 14px 0 !important; text-align: left; border-bottom: 1px solid var(--border-hairline) !important; }
   [data-m="hide"] { display: none !important; }
   [data-m="hero-pad"] { padding: var(--space-16, 64px) var(--space-6) !important; }
-  [data-m="croke-scrim"] { background: rgba(14,22,28,0.78) !important; }
+  [data-m="croke-img"] { aspect-ratio: 4 / 3 !important; }
+  [data-m="croke-img"] img { object-position: 45% 100% !important; }
   h1 { overflow-wrap: normal; }
 }
 @media (max-width: 520px) {
