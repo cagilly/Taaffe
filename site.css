@@ -365,7 +365,7 @@ label:has(input[type=radio]:focus-visible) > span:first-child{outline:2px solid 
   [data-m="hide"] { display: none !important; }
   [data-m="hero-pad"] { padding: var(--space-16, 64px) var(--space-6) !important; }
   [data-m="croke-scrim"] { background: rgba(14,22,28,0.78) !important; }
-  h1 { overflow-wrap: break-word; }
+  h1 { overflow-wrap: normal; }
 }
 @media (max-width: 520px) {
   [data-m="footer"] { grid-template-columns: minmax(0, 1fr) !important; }
