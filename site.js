@@ -39,7 +39,7 @@
   var q = function (k) { return document.querySelector('[data-q="' + k + '"]'); };
   var send = q('send');
   if (send) {
-    var mat = q('material'), ton = q('tonnes'), site = q('site'), phone = q('phone'), name = q('name'), honey = q('honey');
+    var mat = q('material'), ton = q('tonnes'), site = q('site'), phone = q('phone'), name = q('name'), honey = q('honey'), details = q('details');
     var sum = q('sum'), siteSum = q('site-sum'), sizeSum = q('size-sum'), msg = q('err'), wa = q('wa');
     var fieldset = function (start) { return [].slice.call(document.querySelectorAll('fieldset')).filter(function (f) { var l = f.querySelector('legend'); return l && l.textContent.indexOf(start) === 0; })[0]; };
     var fsSize = fieldset('How much'), fsWhen = fieldset('When');
@@ -65,22 +65,27 @@
       if (!name.value.trim() || !site.value.trim() || !phone.value.trim()) { say('Please fill in your name, the site address and a phone number.'); (!name.value.trim() ? name : !site.value.trim() ? site : phone).focus(); return; }
       send.disabled = true; send.textContent = 'Sending\u2026';
       var tonnes = ton.value || '?';
+      var ctl = window.AbortController ? new AbortController() : null;
+      var timer = setTimeout(function () { if (ctl) ctl.abort(); }, 20000);
       fetch('https://formsubmit.co/ajax/taaffesandgravelltd@gmail.com', {
-        method: 'POST',
+        method: 'POST', signal: ctl ? ctl.signal : undefined,
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify({
           _subject: 'Website price request: ' + tonnes + ' t ' + mat.value,
           _template: 'table', _captcha: 'false', _honey: honey ? honey.value : '',
           Name: name.value, Material: mat.value, Amount: val(fsSize), Tonnage: tonnes + ' t',
-          'Site address': site.value, Phone: phone.value, 'When needed': val(fsWhen)
+          'Site address': site.value, Phone: phone.value, 'When needed': val(fsWhen), Details: details ? details.value : ''
         })
       }).then(function (r) {
         if (!r.ok) throw new Error('bad');
+        return r.json();
+      }).then(function (d) {
+        if (d && (d.success === false || d.success === 'false')) throw new Error(d.message || 'bad');
         try { sessionStorage.setItem('taaffe-job', tonnes + ' t ' + mat.value + ' \u00b7 ' + val(fsSize)); } catch (e) {}
         window.location.href = 'thanks.html';
       }).catch(function () {
         say('That did not send. Please ring the yard on 045 430 536 or use WhatsApp.');
-      }).then(function () { send.disabled = false; send.textContent = 'Send request'; });
+      }).then(function () { clearTimeout(timer); send.disabled = false; send.textContent = 'Send request'; });
     });
   }
 })();
