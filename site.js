@@ -39,7 +39,9 @@
   var q = function (k) { return document.querySelector('[data-q="' + k + '"]'); };
   var send = q('send');
   if (send) {
-    var mat = q('material'), ton = q('tonnes'), site = q('site'), phone = q('phone'), name = q('name'), honey = q('honey'), details = q('details');
+    var mat = q('material'), ton = q('tonnes'), site = q('site'), phone = q('phone'), name = q('name'), honey = q('honey'), details = q('details'), dateIn = q('date');
+    if (dateIn) { var t = new Date(); dateIn.min = t.getFullYear() + '-' + ('0' + (t.getMonth() + 1)).slice(-2) + '-' + ('0' + t.getDate()).slice(-2); }
+    var niceDate = function () { if (!dateIn || !dateIn.value) return ''; var p = dateIn.value.split('-'); return new Date(+p[0], p[1] - 1, +p[2]).toLocaleDateString('en-IE', { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' }); };
     var sum = q('sum'), siteSum = q('site-sum'), sizeSum = q('size-sum'), msg = q('err'), wa = q('wa');
     var fieldset = function (start) { return [].slice.call(document.querySelectorAll('fieldset')).filter(function (f) { var l = f.querySelector('legend'); return l && l.textContent.indexOf(start) === 0; })[0]; };
     var fsSize = fieldset('How much'), fsWhen = fieldset('When');
@@ -74,7 +76,7 @@
           _subject: 'Website price request: ' + tonnes + ' t ' + mat.value,
           _template: 'table', _captcha: 'false', _honey: honey ? honey.value : '',
           Name: name.value, Material: mat.value, Amount: val(fsSize), Tonnage: tonnes + ' t',
-          'Site address': site.value, Phone: phone.value, 'When needed': val(fsWhen), Details: details ? details.value : ''
+          'Site address': site.value, Phone: phone.value, 'When needed': val(fsWhen), 'Exact date': niceDate(), Details: details ? details.value : ''
         })
       }).then(function (r) {
         if (!r.ok) throw new Error('bad');
