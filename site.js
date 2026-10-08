@@ -59,6 +59,8 @@
       sizeSum.textContent = val(fsSize).toUpperCase();
       wa.href = 'https://wa.me/353876471438?text=' + encodeURIComponent('Hi Taaffe Sand & Gravel, I am looking for a price on ' + (ton.value || '?') + ' t of ' + mat.value + ' delivered to ' + (site.value || '[site address / Eircode]') + '. Thanks.');
     };
+    var sizeTon = { '1 tonne bag': '1', 'Small load (2–5 t)': '5', 'Full load (up to 20 t)': '20', 'Artic load (approx. 29–30 t)': '30' };
+    if (fsSize) fsSize.addEventListener('change', function () { var v = sizeTon[val(fsSize)]; if (v) ton.value = v; });
     [fsSize, fsWhen].forEach(function (f) { if (f) f.addEventListener('change', function () { paint(f); update(); }); });
     [ton, site, phone].forEach(function (el) { el.addEventListener('input', update); });
     mat.addEventListener('change', update);
